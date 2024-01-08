@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom';
-useParams
 import Header from './Header'
 import { useState } from 'react'
 import { useEffect } from 'react'
