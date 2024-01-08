@@ -1,0 +1,113 @@
+
+  
+ 
+.divStyle {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  
+  .h1Style {
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    padding-top: 200px;
+    text-shadow: 3px 3px 5px rgba(255, 255, 0, 0.3);
+    font-family: 'Kanit', sans-serif;
+  }
+
+ 
+  
+  .pStyle {
+    text-shadow: 3px 3px 5px rgba(255, 255, 0, 0.3);
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  
+  .buttonStyle {
+    font-size: 28px;
+    align-items: center;
+      justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Media queries for responsive design */
+  
+  @media screen and (max-width: 767px) {
+
+    
+    .h1Style {
+      font-size: 35px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding-top: 100px;
+    }
+
+  
+
+  
+    .pStyle {
+      font-size: 14px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+     
+    }
+  
+    .buttonStyle {
+      font-size: 16px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .h1Style {
+      font-size: 50px;
+      text-align: center;
+    }
+   
+    .pStyle {
+      font-size: 14px;
+      text-align: center;
+      
+      align-items: center;
+      justify-content: center;
+     
+    }
+  
+    .buttonStyle {
+        align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .h1Style {
+      font-size: 55px;
+      text-align: center;
+    }
+  
+  
+    .pStyle {
+      font-size: 14px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
+    .buttonStyle {
+      font-size: 16px;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }

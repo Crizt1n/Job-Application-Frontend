@@ -1,0 +1,39 @@
+
+  
+  th, td {
+    border: 1px solid #ddd;
+  
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+
+    cursor: pointer;
+  }
+
+  .scroll-arrow {
+    position: absolute;
+    top: 101%;
+    transform: translateY(-50%);
+
+
+  }
+  
+  .left-arrow {
+    left: 0;
+  }
+  
+  .right-arrow {
+    right: 0;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+    scroll-behavior: smooth; /* For smooth scrolling behavior */
+  }
+
+  
